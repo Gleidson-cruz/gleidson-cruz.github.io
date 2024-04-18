@@ -1,0 +1,85 @@
+* {
+    font-family: "oswald", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    /*Centralizando o conteúdo*/
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    flex-grow: 1;
+    display: flex;
+}
+
+.tec1 {
+    width: 280px;
+    font-size: 70px;
+    font-weight: bolder;
+    display: flex;
+    position: relative;
+    top: 40px;
+    left: 4px;
+}
+
+.tec2 {
+    font-size: 150px;
+    font-weight: bolder;
+    display: table;
+    position: relative;
+    bottom: 40px;
+}
+
+.icons {
+    z-index: 1;
+    display: flex;
+    position: relative;
+    left: 300px;
+    bottom: 14px;
+    justify-content: left;
+}
+
+.icons svg {
+    width: 26px;
+    height: 26px;
+}
+
+.sobre {
+    display: flex;
+    width: 270px;
+    position: relative;
+    left: 350px;
+    bottom: 45px;
+    font-size: 20px;
+}
+.name {
+    position: relative;
+    top: 50px;
+    left: 8px;
+    font-size: 20px;
+}
+
+.icons a {
+    margin: 5px;
+    display: block;
+    width: 26px;
+    height: 26px;
+}
+
+a:visited {
+    color: #000;
+}
+
+.icons a:hover {
+    background-color: #00000010;
+    width: 35px;
+    border-radius: 10px;
+    transition: 0,3s;
+}
