@@ -12,6 +12,8 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    background-color: #ffffff;
+    color: #000000;
 }
 
 .content {
@@ -49,6 +51,7 @@
 .icons svg {
     width: 26px;
     height: 26px;
+    color: #28a7ff;
 }
 
 .sobre {
@@ -68,18 +71,48 @@
 
 .icons a {
     margin: 5px;
-    display: block;
-    width: 26px;
-    height: 26px;
-}
-
-a:visited {
-    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
 }
 
 .icons a:hover {
-    background-color: #00000010;
-    width: 35px;
+    background-color: #bbd7f8;
+    transition: 0.2s;
     border-radius: 10px;
-    transition: 0,3s;
+}
+
+nav {
+    position: relative;
+    bottom: 167px;
+    left: 4px;
+    width: 290px;
+}
+
+nav a {
+    font-size: 20px;
+    margin: 5px;
+    color: #28a7ff;
+    text-decoration: none;
+    position: relative;
+}
+
+.links::before {
+    /* ::before: Sublinhado expansivél*/
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 50%;
+    width: 0;
+    height: 2px;
+    background-color: #1e90ff; 
+    transition: width 0.3s ease, left 0.3s ease;
+}
+
+.links:hover::before {
+    /* :hover: Sublinhado expansivél*/
+    width: 100%;
+    left: 0; 
 }
