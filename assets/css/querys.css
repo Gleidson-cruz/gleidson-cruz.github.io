@@ -1,0 +1,172 @@
+@media (min-width: 768px) and (max-width: 1023px) {
+    /* Estilos para tablets */
+    .tec1 {
+        font-size: 6.843vw;
+        width: 27.37vw;
+        top: 3,91vw;
+        left: 0,391vw;
+    }
+
+    .tec2 {
+        font-size: 14.664vw;
+        bottom: 40px;
+    }
+
+    .icons {
+        left: 29.326vw;
+        bottom: 1.369vw;
+    }
+
+    .icons svg {
+        width: 2.542vw;
+        height: 2.542vw;
+        margin: 0,489vw
+    }
+
+    .sobre {
+        width: 26.393vw;
+        left: 34.213vw;
+        bottom: 4.399vw;
+        font-size: 1.955vw;
+    }
+
+    .name {
+        top: 4.88vw;
+        left: 0.782vw;
+        font-size: 1.955vw;
+    }
+
+    .icons a {
+        margin: 0.489vw;
+        width: 3.421vw;
+        height: 3.421vw;
+    }
+
+    nav {
+        bottom: 16.324vw;
+        left: 0.391vw;
+        width: 28.348vw;
+    }
+
+    nav a {
+        font-size: 1.955vw;
+        margin: 0.244vw;
+    }
+
+    }
+
+    @media (min-width: 480px) and (max-width: 767px) {
+        /* Estilos médios */
+
+        .tec1 {
+            font-size: 9.126vw;
+            width: 36.506vw;
+            top: 5.215vw;
+            left: 0.522vw;
+        }
+    
+        .tec2 {
+            font-size: 19.557vw;
+            bottom: 5.215vw;
+        }
+    
+        .icons {
+            left: 39.113vw;
+            bottom: 1.825vw;
+        }
+    
+        .icons svg {
+            width: 3.39vw;
+            height: 3.39vw;
+        }
+    
+        .sobre {
+            width: 35.202vw;
+            left: 45.632vw;
+            bottom: 5.867vw;
+            font-size: 2.608vw;
+        }
+    
+        .name {
+            top: 6.519px;
+            left: 1.043;
+            font-size: 2.608vw;
+        }
+    
+        .icons a {
+            margin: 0.652vw;
+            width: 4.563vw;
+            height: 4.563vw;
+        }
+    
+        nav {
+            bottom: 21.773vw;
+            left: 0.522vw;
+            width: 37.81vw;
+        }
+    
+        nav a {
+            font-size: 2.608vw;
+            margin: 0.326vw;
+        }
+    
+    }
+    
+
+  @media (min-width: 320px) and (max-width: 479px) {
+    /* Estilos para celulares */
+
+    .tec1 {
+        font-size: 14.614vw;
+        width: 58.455vw;
+        top: 8.351vw;
+        left: 0.835vw;
+    }
+
+    .tec2 {
+        font-size: 31.315vw;
+        bottom: 8.351vw;
+    }
+
+    .icons {
+        left: 62.63vw;
+        bottom: 2.923vw;
+    }
+
+    .icons svg {
+        width: 5.428vw;
+        height: 5.428vw;
+    }
+
+    .sobre {
+        width: 56.367vw;
+        left: 73.069vw;
+        bottom: 0.395vw;
+        font-size: 4.175vw;
+    }
+
+    .name {
+        top: 50px;
+        left: 1.67vw;
+        font-size: 4.175vw;
+    }
+
+    .icons a {
+        margin: 1.044vw;
+        width: 7.307vw;
+        height: 7.307vw;
+    }
+
+    nav {
+        bottom: 34.864vw;
+        left: 0.835vw;
+        width: 60.543vw;
+    }
+
+    nav a {
+        font-size: 4.175vw;
+        margin: 1.044vw;
+    }
+
+
+  }
