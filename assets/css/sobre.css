@@ -1,0 +1,30 @@
+
+#img {
+    width: 18.067vw;
+    height: 18.067vw; 
+    border-radius: 50%;
+    border: 5px #28a7ff solid;
+}
+
+#sobre {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+figure {
+    flex-direction: column;
+    justify-content: center;
+}
+
+figcaption {
+   max-width: 500px;
+   display: flex;
+   justify-content: center;
+}
+  
+summary {
+ cursor: pointer;
+}
+  

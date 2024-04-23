@@ -113,54 +113,56 @@
     }
     
 
-  @media (min-width: 320px) and (max-width: 479px) {
+  @media (max-width: 479px) {
     /* Estilos para celulares */
 
     .tec1 {
-        font-size: 14.614vw;
+        font-size: 7.438vw;
         width: 58.455vw;
-        top: 8.351vw;
-        left: 0.835vw;
+        top: 6.351vw;
+        left: 0.835vw
     }
 
     .tec2 {
-        font-size: 31.315vw;
+        font-size: 16.701vw;;
         bottom: 8.351vw;
     }
 
     .icons {
-        left: 62.63vw;
-        bottom: 2.923vw;
+        left: 31.754vw;
+        bottom: 2.088vw;
     }
 
     .icons svg {
-        width: 5.428vw;
-        height: 5.428vw;
+        width: 4.593vw;
+        height: 4.593vw;
     }
 
     .sobre {
-        width: 56.367vw;
-        left: 73.069vw;
+        width: 62.63vw;
+        left: 3vw;
         bottom: 0.395vw;
         font-size: 4.175vw;
     }
 
     .name {
-        top: 50px;
-        left: 1.67vw;
-        font-size: 4.175vw;
+        top: 8.438vw;
+        left: 0.9vw;
+        font-size: 3vw;
     }
 
     .icons a {
-        margin: 1.044vw;
-        width: 7.307vw;
-        height: 7.307vw;
+        margin: 0;
+        width: 7vw;
+        height: 7vw;
     }
 
     nav {
         bottom: 34.864vw;
         left: 0.835vw;
         width: 60.543vw;
+        display: flex;
+        justify-content: center;
     }
 
     nav a {
