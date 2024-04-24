@@ -1,0 +1,121 @@
+.tec-config {
+    width: 9.933vw;
+    height: 9.933vw;
+    margin: 1.355vw;
+    border: 1px red solid;
+}
+
+.container-tec {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#tec {
+    display: flex;
+    display: flex;
+    margin: 1.355vw;
+}
+
+#tec-html {
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+    font-size: 2.168vw;
+    border-radius: 1.355vw;
+    background-color: #ef6026;
+    color: #fff;
+}
+
+#tec-css {
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+    font-size: 2.529vw;
+    border-radius: 1.355vw;
+    background-color: #25a1e1;
+    color: #fff;
+}
+
+#tec-js {
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+    font-size: 3.162vw;
+    border-radius: 1.355vw;
+    background-color: #f0db4e;
+    color: #000;
+}
+
+#tec-php {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.168vw;
+    border-radius: 9.033vw 2.258vw;
+    border: 0.181vw #333 solid;
+    background-color: #767bb3;
+    color: #000;
+}
+
+#tec-figman {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.txt-tec {
+    margin: 0 0.452vw;
+}
+
+#txt-tec-php {
+    -webkit-text-stroke: 0.09vw #fff;
+}
+
+.tech-figman-balls {
+    width: 2.258vw;
+    height: 2.258vw;
+    
+}
+
+#ballsL {
+    position: relative;
+    top: 1.355vw;
+    right: 1.374vw;
+    border-radius: 50% 0 0 50%;
+    background-color: #f24e1e;
+}
+
+
+#ballsR {
+    position: relative;
+    bottom: 0.642vw;
+    left: 1.20vw;
+    background-color: #ff7262;
+    border-radius: 0 50% 50% 0;
+}
+
+#ballsRO {
+    position: relative;
+    right: 1.374vw;
+    bottom: 0.732vw;
+    background-color: #a259ff;
+    border-radius: 50% 0 0 50%;
+}
+
+#ballsA {
+    position: relative;
+    right: 1.374vw;
+    bottom: 0.8vw;
+    background-color: #1abcfe;
+    border-radius: 50%;
+}
+
+#ballsV {
+    position: relative;
+    left: 1.20vw;
+    bottom: 4.7vw;
+    background-color: #0acf83;
+    border-radius: 50% 0 50% 50%;
+}

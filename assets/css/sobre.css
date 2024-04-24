@@ -6,25 +6,124 @@
     border: 5px #28a7ff solid;
 }
 
-#sobre {
+.container-sb {
+    display: flex;
+    align-items: center;;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    flex-direction: column;
+   
+}
+
+#sobre {
+    display: flex;
+    flex-grow: 1;
+}    
+
+#sobre .titulo {
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 4.968vw;
+    position: relative;
+    right: 35px;
+    color: #4fb6ff;
 }
 
 figure {
     flex-direction: column;
     justify-content: center;
+    height: 22.584vw;
+    margin-top: 21.68vw;
+    margin-right: 4.517vw;
+    margin-left: 2.258vw;
+
 }
 
 figcaption {
    max-width: 500px;
    display: flex;
+   align-items: center;
    justify-content: center;
 }
-  
-summary {
- cursor: pointer;
+
+figcaption h1 {
+    font-size: 2.168vw;
 }
-  
+
+.txt-sobre {
+    width: 63.234vw;
+    font-size: 1.807vw;
+    margin-bottom: 0.452vw;
+}
+
+.txt-sobre p {
+    margin-bottom: 1.506vw;
+}
+
+.txt-sobre mark {
+    padding: 0 0.452vw;
+    border-radius: 0.903vw;
+}
+
+.txt-sobre .html {
+    background-color: #ef6026;
+    color: #fff;
+}
+
+.txt-sobre .css {
+    background-color: #25a1e1;
+    color: #fff;
+}
+
+.txt-sobre .js {
+    background-color: #f0db4e;
+    color: #fff;
+}
+
+.txt-sobre .php {
+    background-color: #767bb3;
+    color: #fff;
+}
+.txt-sobre h3 {
+    color:#5cb8fa
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3.433vw;
+    height: 3.433vw;
+    z-index: 1;
+    border: 0.181vw #28a7ff solid;
+    border-radius: 50%;
+    margin: 0.452vw;
+}
+
+.contact a:hover {
+    background-color: #28a7ff;
+    transition: 0.2s ease;
+    position: relative;
+    bottom: 5px;
+}
+
+.contact a:hover svg {
+    color: #fff;
+    transition: 0.2s ease;
+}
+
+.contact svg {
+    width: 2.349vw;
+    height: 2.349vw;
+    z-index: 0;
+    color: #28a7ff;
+}
