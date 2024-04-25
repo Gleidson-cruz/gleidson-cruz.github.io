@@ -2,8 +2,13 @@
     width: 9.933vw;
     height: 9.933vw;
     margin: 1.355vw;
-    border: 1px red solid;
+    
 }
+
+.tec-config:hover {
+    opacity: 0.5;
+    transition: opacity 0.3s;
+  }
 
 .container-tec {
     display: flex;
@@ -58,13 +63,6 @@
     color: #000;
 }
 
-#tec-figman {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
 .txt-tec {
     margin: 0 0.452vw;
 }
@@ -73,49 +71,57 @@
     -webkit-text-stroke: 0.09vw #fff;
 }
 
+#tec-figman {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #1e1e1e;
+    border-radius: 1.355vw;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+
 .tech-figman-balls {
     width: 2.258vw;
     height: 2.258vw;
-    
-}
+    border-radius: 50%;
+    display: inline;
+  }
+  
 
-#ballsL {
+  #ballsL {
     position: relative;
     top: 1.355vw;
-    right: 1.374vw;
     border-radius: 50% 0 0 50%;
-    background-color: #f24e1e;
-}
-
-
-#ballsR {
+    background-color: #e15a32;
+  }
+  
+  #ballsR {
     position: relative;
-    bottom: 0.642vw;
-    left: 1.20vw;
-    background-color: #ff7262;
+    left: 2.258vw;
+    bottom: 0.933vw;
     border-radius: 0 50% 50% 0;
-}
-
-#ballsRO {
+    background-color: #ee7969;
+  }
+  
+  #ballsRO {
     position: relative;
-    right: 1.374vw;
-    bottom: 0.732vw;
-    background-color: #a259ff;
+    bottom: 0.903vw;
     border-radius: 50% 0 0 50%;
+    background-color: #985cf5;
 }
-
-#ballsA {
+  
+  #ballsA {
     position: relative;
-    right: 1.374vw;
-    bottom: 0.8vw;
-    background-color: #1abcfe;
-    border-radius: 50%;
-}
-
-#ballsV {
+    top: 0.271vw;
+    background-color: #57b9f7;
+  }
+  
+  #ballsV {
     position: relative;
-    left: 1.20vw;
-    bottom: 4.7vw;
-    background-color: #0acf83;
+    bottom: 0.903vw;
     border-radius: 50% 0 50% 50%;
+    background-color: #5ecc89;
 }
