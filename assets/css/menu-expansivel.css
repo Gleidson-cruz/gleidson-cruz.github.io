@@ -1,0 +1,89 @@
+
+#menu-icon i svg {
+    color: #1e90ff;
+    width: 2.258vw;
+    height: 2.258vw;
+    position: relative;
+    top: 0.181vw;
+}
+
+.menu-nav-icon a {
+    font-size: 20px;
+    color: #27272a;
+    text-decoration: none;
+    position: relative;
+    padding: 5px;
+}
+
+.menu-icon {
+  position: fixed;
+  bottom: 1.807vw;
+  right: 1.807vw;
+  width: 4.517vw;
+  height: 4.517vw;
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: transform 0.3s;
+  background-color: #fff;
+  border: 2px #1e90ff solid;
+}
+
+.menu-icon:hover {
+    background-color: #1e90ff;
+    transition: 0.3s ease;
+}
+
+#menu-icon:hover svg {
+    color: #fff;
+    transition: 0.3s ease;
+}
+
+.menu-nav-icon {
+    position: absolute;
+    bottom: 7.227vw;
+    left: 85.818vw;
+    width: 9.033vw;
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.452vw;
+    transform: translateY(10%);
+    transition: transform 0.3s;
+    visibility: hidden;
+    opacity: 1;
+}
+
+.menu-nav-icon.expanded {
+  transform: translateX(0);
+  visibility: visible;
+  opacity: 1;
+  background-color: #f7f7f7;
+  border: 1px #28a7ff solid;
+}
+
+.links-icon {
+  text-decoration: none;
+  color: #27272a;
+}
+
+.links-icon:hover {
+    background-color: #28a7ff;
+    transition: 0.3s ease;
+    color: #fff;
+}
+
+.menu-icon:hover .menu-nav-icon {
+  transform: translateX(0);
+  visibility: visible;
+  opacity: 5;
+}
+
+.menu-icon:hover .menu-icon i {
+  display: none;
+}

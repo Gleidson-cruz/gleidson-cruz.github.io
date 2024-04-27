@@ -2,12 +2,12 @@
     width: 9.933vw;
     height: 9.933vw;
     margin: 1.355vw;
-    
 }
 
 .tec-config:hover {
     opacity: 0.5;
     transition: opacity 0.3s;
+    cursor: pointer;
   }
 
 .container-tec {
@@ -17,7 +17,6 @@
 }
 
 #tec {
-    display: flex;
     display: flex;
     margin: 1.355vw;
 }
@@ -124,4 +123,58 @@
     bottom: 0.903vw;
     border-radius: 50% 0 50% 50%;
     background-color: #5ecc89;
+}
+
+#tec-uiux {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#uiux {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 4.878vw;
+    height: 4.878vw;
+    border-radius: 50%;
+}
+
+.ux h1, .ui h1 {
+    color: #000;
+    font-size: 2.62vw;
+    font-weight: 400;
+}
+
+.ux {
+    position: relative;
+    left: 0.632vw;
+    background-color: #eb5e03;
+    z-index: 1;
+}
+
+.ux h1 {
+    color: #fff;
+}
+
+.ui {
+    position: relative;
+    right: 0.632vw;
+    background-color: #ffcf00;
+}
+
+.title-tec {
+    margin-top: 2.258vw;
+    margin-bottom: 1.355vw;
+}
+
+.title-tec h1 {
+    font-size: 4.968vw;
+    text-align: center;
+}
+
+.title-tec p {
+    text-align: center;
+    font-size: 1.807vw;
+    color: #56565f
 }

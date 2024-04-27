@@ -3,7 +3,7 @@
     width: 18.067vw;
     height: 18.067vw; 
     border-radius: 50%;
-    border: 5px #28a7ff solid;
+    border: 5px #27272a solid;
 }
 
 .container-sb {
@@ -28,8 +28,8 @@
     justify-content: space-evenly;
     font-size: 4.968vw;
     position: relative;
-    right: 35px;
-    color: #4fb6ff;
+    right: 3.162vw;
+    color: #27272a;
 }
 
 figure {
@@ -88,7 +88,7 @@ figcaption h1 {
     color: #fff;
 }
 .txt-sobre h3 {
-    color:#5cb8fa
+    color: #27272a;
 }
 
 .contact {
@@ -104,13 +104,14 @@ figcaption h1 {
     width: 3.433vw;
     height: 3.433vw;
     z-index: 1;
-    border: 0.181vw #28a7ff solid;
+    border: 0.181vw #27272a   solid;
     border-radius: 50%;
     margin: 0.452vw;
 }
 
 .contact a:hover {
-    background-color: #28a7ff;
+    background-color: #36363a;
+    border: #36363a;
     transition: 0.2s ease;
     position: relative;
     bottom: 5px;
@@ -125,5 +126,5 @@ figcaption h1 {
     width: 2.349vw;
     height: 2.349vw;
     z-index: 0;
-    color: #28a7ff;
+    color: #27272a  ;
 }

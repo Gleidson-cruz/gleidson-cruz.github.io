@@ -1,14 +1,15 @@
 * {
-    font-family: "oswald", sans-serif;
+    font-family: "oswald",  sans-serif;
     margin: 0;
     padding: 0;
-
 }
 
 html {
     width: 100vw;
     box-sizing: border-box;
     margin: 0;
+    background-color: #f7f7f7;
+    color: #27272a;
 }
 
 body {
@@ -31,8 +32,7 @@ html, body {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    background-color: #ffffff;
-    color: #000000;
+    color: #000;
 }
 
 .content {
@@ -48,6 +48,7 @@ html, body {
     position: relative;
     top: 40px;
     left: 4px;
+
 }
 
 .tec2 {
@@ -70,7 +71,7 @@ html, body {
 .icons svg {
     width: 26px;
     height: 26px;
-    color: #28a7ff;
+    color: #1e90ff;
 }
 
 .sobre {
@@ -98,9 +99,14 @@ html, body {
 }
 
 .icons a:hover {
-    background-color: #bbd7f8;
-    transition: 0.2s;
+    background-color: #1e90ff;
+    transition: 0.2s ease;
     border-radius: 10px;
+}
+
+.icons a:hover svg {
+    color: #fff;
+    transition: 0,2 ease;
 }
 
 nav {
@@ -114,7 +120,7 @@ nav {
 nav a {
     font-size: 20px;
     margin: 5px;
-    color: #28a7ff;
+    color: #1e90ff;
     text-decoration: none;
     position: relative;
 }
@@ -127,8 +133,13 @@ nav a {
     left: 50%;
     width: 0;
     height: 2px;
-    background-color: #1e90ff; 
+    background-color: #0a71eb; 
     transition: width 0.3s ease, left 0.3s ease;
+}
+
+.links:hover {
+    -webkit-text-stroke: 0.015vw #0a71eb;
+    transition: 0.1s;
 }
 
 .links:hover::before {

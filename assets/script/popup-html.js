@@ -96,7 +96,40 @@ const tecnologias = [
       </ul>
     </li>
   </ul>`
-  }
+  },
+  {
+    nome: 'UX/UI Designer',
+    descricao: ` <ul>
+    <li>
+      <strong>Design Visual Atraente e Funcional:</strong>
+      <ul>
+        <li>Criar layouts que sejam atraentes visualmente e ao mesmo tempo funcionais, garantindo uma boa experiência de usuário.</li>
+        <li>Utilizar técnicas de design como espaçamento adequado, hierarquia visual e uso inteligente de elementos gráficos para direcionar o olhar do usuário e facilitar a compreensão da interface.</li>
+      </ul>
+    </li>
+    <li>
+      <strong>Escolha de Paletas de Cores:</strong>
+      <ul>
+        <li>Selecionar paletas de cores que sejam harmoniosas e que transmitam a mensagem desejada, considerando a psicologia das cores e o contexto do projeto.</li>
+        <li>Garantir que as cores escolhidas também sejam acessíveis para usuários com diferentes necessidades visuais.</li>
+      </ul>
+    </li>
+    <li>
+      <strong>Tipografia Eficiente:</strong>
+      <ul>
+        <li>Escolher tipografias adequadas que sejam legíveis em diferentes tamanhos e dispositivos, mantendo a consistência e o estilo do design.</li>
+        <li>Utilizar hierarquia tipográfica para destacar informações importantes e facilitar a leitura.</li>
+      </ul>
+    </li>
+    <li>
+      <strong>Elementos Gráficos Coesos:</strong>
+      <ul>
+        <li>Integrar elementos gráficos, como ícones e ilustrações, de forma coesa e alinhada com a identidade visual do projeto.</li>
+        <li>Certificar-se de que esses elementos contribuam para a compreensão e usabilidade da interface, evitando poluição visual desnecessária.</li>
+      </ul>
+    </li>
+  </ul>`
+  },
 ];
 
 // Função que cria o popup
