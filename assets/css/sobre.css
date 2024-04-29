@@ -110,12 +110,13 @@ figcaption h1 {
 }
 
 .contact a:hover {
-    background-color: #36363a;
-    border: #36363a;
+    background-color: #36363a ;
+    border: 0.181vw  #36363a solid;
     transition: 0.2s ease;
     position: relative;
-    bottom: 5px;
+    bottom: 0.452vw;
 }
+
 
 .contact a:hover svg {
     color: #fff;
@@ -126,5 +127,5 @@ figcaption h1 {
     width: 2.349vw;
     height: 2.349vw;
     z-index: 0;
-    color: #27272a  ;
+    color: #27272a;
 }

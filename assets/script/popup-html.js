@@ -176,7 +176,7 @@ function createPopup(element, tecnologias) {
   const fecharPopupButton = popup.querySelector('#fechar-popup');
   fecharPopupButton.style.borderRadius = '0.452vw';
   fecharPopupButton.style.border = 'none';
-  fecharPopupButton.style.backgroundColor = '#28a7ff';
+  fecharPopupButton.style.backgroundColor = '#3490dc';
   fecharPopupButton.style.width = '6.775vw';
   fecharPopupButton.style.height = '2.258vw';
   fecharPopupButton.style.color = '#fff';
