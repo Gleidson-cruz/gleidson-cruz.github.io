@@ -180,3 +180,8 @@
     font-size: 1.807vw;
     color: #56565f
 }
+
+#tec-html, #tec-css, #tec-js,
+#tec-php, #tec-figman, #uiux {
+    box-shadow: 2px 2px 9px 0px rgba(39,39,42,1);
+}
