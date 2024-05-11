@@ -2,15 +2,15 @@
     width: 9.933vw;
     height: 9.933vw;
     margin: 1.355vw;
-}
-
-.tec-config:hover {
-    opacity: 0.7;
-    transition: opacity 0.3s;
+    transition: opacity 0.6s ease;
     cursor: pointer;
     position: relative;
     bottom: 0.452vw;
-  }
+}
+
+#tec:hover > :not(:hover) {
+    opacity: 0.4;
+}
 
 .container-tec {
     display: flex;
@@ -47,7 +47,7 @@
     display: flex;
     justify-content: flex-end;
     align-items: end;
-    font-size: 3.162vw;
+    font-size: 2.168vw;
     border-radius: 1.355vw;
     background-color: #f0db4e;
     color: #000;
@@ -55,13 +55,11 @@
 
 #tec-php {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-end;
+    align-items: end;
     font-size: 2.168vw;
-    border-radius: 9.033vw 2.258vw;
-    border: 0.181vw #333 solid;
+    border-radius: 1.355vw;
     background-color: #767bb3;
-    color: #000;
 }
 
 .txt-tec {
@@ -70,6 +68,7 @@
 
 #txt-tec-php {
     -webkit-text-stroke: 0.09vw #fff;
+    margin: 0 0.452vw;
 }
 
 #tec-figman {
@@ -102,7 +101,7 @@
   #ballsR {
     position: relative;
     left: 2.258vw;
-    bottom: 0.933vw;
+    bottom: 0.9vw;
     border-radius: 0 50% 50% 0;
     background-color: #ee7969;
   }
@@ -166,13 +165,8 @@
 }
 
 .title-tec {
-    margin-top: 2.258vw;
+    margin-top: 0;
     margin-bottom: 1.355vw;
-}
-
-.title-tec h1 {
-    font-size: 4.968vw;
-    text-align: center;
 }
 
 .title-tec p {

@@ -29,17 +29,19 @@
 }
 
 .card-1 {
-    background-image: url(../img/img1.webp);
+    background-image: url(../img/Artigos/img1.webp);
     background-blend-mode: multiply;
     background-color: rgba(0, 0, 0, 0.5);
+    background-size: cover;
 }
 
 
 
 .card-2 {
-    background-image: url(../img/img2.webp);
+    background-image: url(../img/Artigos/img2.webp);
     background-blend-mode: multiply;
     background-color: rgba(0, 0, 0, 0.5);
+    background-size: cover;
 }
 
 
@@ -100,7 +102,7 @@
     font-size: 1.445vw;
 }
 
-.title-art {
+.title-art h1 {
     font-size: 4.968vw;
     text-align: center;
 }

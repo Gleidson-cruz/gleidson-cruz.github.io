@@ -22,7 +22,7 @@
   width: 4.517vw;
   height: 4.517vw;
   background-color: #333;
-  color: #fff;
+  color: #ffffff;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -31,6 +31,7 @@
   transition: transform 0.3s;
   background-color: #fff;
   border: 2px #1e90ff solid;
+  z-index: 1000;
 }
 
 .menu-icon:hover {
@@ -65,6 +66,8 @@
   opacity: 1;
   background-color: #f7f7f7;
   border: 1px #28a7ff solid;
+  box-shadow: 0.181vw 0.181vw 0.813vw 0 rgba(39,39,42,1);
+  z-index: 1000;
 }
 
 .links-icon {

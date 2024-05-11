@@ -1,0 +1,66 @@
+.title-proj h1 {
+    font-size: 4.968vw;
+    text-align: center;
+    padding-bottom: 4.582vw;
+}
+
+.container-proj {
+    display: flex;
+    justify-content: center;
+}
+
+.container-proj a {
+    text-decoration: none;
+}
+
+.card-proj {
+    display: flex;
+    width: 22.584vw;
+    height: 36.134vw;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-end;
+    flex-wrap: wrap;
+    margin: 0.903vw;
+    border-radius: 0.903vw;
+    box-shadow: 0.181vw 0.181vw 0.813vw 0 rgb(77, 77, 80);
+}
+
+.desc-proj {
+    width: 21.68vw;
+    margin: 0.452vw;
+    margin-bottom: 1.355vw;
+    color: #fff;
+}
+
+.desc-proj h1 {
+    font-size: 2.349vw;
+}
+
+.desc-proj span {
+    font-size: 1.445vw;
+}
+
+#proj-1 {
+    background-image: url(../img/Projetos/EM-BREVE-1.png);
+}
+
+#proj-2 {
+    background-image: url(../img/Projetos/EM-BREVE-2.png);
+}
+
+#proj-3 {
+    background-image: url(../img/Projetos/EM-BREVE-3.png);
+}
+
+#proj-1, #proj-2, #proj-3 {
+    background-size: cover;
+    filter: grayscale(1);
+}
+
+#proj-1:hover, #proj-2:hover, #proj-3:hover {
+    filter: grayscale(0);
+    transition: filter 0.6s ease;
+    position: relative;
+    bottom: 0.452vw;
+}
