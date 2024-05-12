@@ -29,13 +29,13 @@
   cursor: pointer;
   border-radius: 50%;
   transition: transform 0.3s;
-  background-color: #fff;
+  background-color: #ffffff90;
   border: 2px #1e90ff solid;
   z-index: 1000;
 }
 
 .menu-icon:hover {
-    background-color: #1e90ff;
+    background-color: #1e90ff90;
     transition: 0.3s ease;
 }
 

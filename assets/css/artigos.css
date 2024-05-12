@@ -76,19 +76,16 @@
     justify-content: center;
 }
 
-#content-card {
-    display: flex;
-    flex-direction: column;
-    text-decoration: none;
-    margin-top: 1.355vw;
-    margin-left: 0.452vw;
-}
-
 #content-card a {
     text-decoration: none;
     color: #f7f7f7;
     z-index: 5;
     -webkit-text-stroke: 0.02vw #CCCCCC;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    margin-top: 1.355vw;
+    margin-left: 0.452vw;
 }
 
 #content-card h1 {

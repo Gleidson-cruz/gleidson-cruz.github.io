@@ -7,10 +7,13 @@
 .container-proj {
     display: flex;
     justify-content: center;
+    padding: 4.582vw;
+    padding-top: 0;
 }
 
 .container-proj a {
     text-decoration: none;
+    display: block;
 }
 
 .card-proj {
@@ -22,13 +25,14 @@
     align-content: flex-end;
     flex-wrap: wrap;
     margin: 0.903vw;
+    margin-top: 0;
     border-radius: 0.903vw;
     box-shadow: 0.181vw 0.181vw 0.813vw 0 rgb(77, 77, 80);
 }
 
 .desc-proj {
     width: 21.68vw;
-    margin: 0.452vw;
+    margin: 2vw auto;
     margin-bottom: 1.355vw;
     color: #fff;
 }
@@ -39,6 +43,7 @@
 
 .desc-proj span {
     font-size: 1.445vw;
+    display: block;
 }
 
 #proj-1 {
