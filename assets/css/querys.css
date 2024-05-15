@@ -1,39 +1,48 @@
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 768px) and (max-width: 1024px) {
     /* Estilos para tablets */
+
+    /*  Seção home*/
+    #home {
+        margin-bottom: 5.371vw;
+    }
     .tec1 {
-        font-size: 6.843vw;
-        width: 27.37vw;
+        font-size: 9.843vw;
+        width: 39.063vw;
         top: 3,91vw;
-        left: 0,391vw;
+        left: 0.977vw;
     }
 
     .tec2 {
-        font-size: 14.664vw;
-        bottom: 40px;
+        font-size: 20.703vw;
+        bottom: 3.906vw;
     }
 
     .icons {
-        left: 29.326vw;
-        bottom: 1.369vw;
+        left: 41.113vw;
+        bottom: 2.734vw;
     }
 
     .icons svg {
-        width: 2.542vw;
-        height: 2.542vw;
+        width: 4.883vw;
+        height: 3.906vw;
         margin: 0,489vw;
     }
 
+    .icons a {
+        width: 4.883vw;
+        height: 0;
+    }
     .sobre {
-        width: 26.393vw;
-        left: 34.213vw;
-        bottom: 4.399vw;
-        font-size: 1.955vw;
+        width: 41.393vw;
+        left: 42.213vw;
+        bottom: 3.399vw;
+        font-size: 2.955vw;
     }
 
     .name {
         top: 4.88vw;
-        left: 0.782vw;
-        font-size: 1.955vw;
+        left: 1.7vw;
+        font-size: 3.223vw;
     }
 
     .icons a {
@@ -43,19 +52,154 @@
     }
 
     nav {
-        bottom: 16.324vw;
+        bottom: 21.324vw;
         left: 0.391vw;
-        width: 28.348vw;
+        width: 38.348vw;
     }
 
     nav a {
-        font-size: 1.955vw;
+        font-size: 2.955vw;
         margin: 0.244vw;
     }
 
+     /*seção sobre*/
+
+     #sobre {
+        display: flex;
+        flex-grow: 1;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+     }
+
+     #sobre figure {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 0;
+        margin-right: 0;
+        margin-left: 0;
+     }
+
+     #sobre #img {
+        width: 23.067vw;
+        height: 23.067vw;
+        border-radius: 50%;
+        border: 0.488vw #27272a solid;
+     }
+
+     #sobre figure figcaption h1 {
+        font-size: 3.168vw;
+     }
+
+     #sobre .txt-sobre {
+        width: 86.234vw;
+        font-size: 2.807vw;
+        margin-bottom: 3.452vw;
+     }
+
+     #sobre .contact a {
+        margin: 0.44vw;
+        width: 6.349vw;
+        height: 6.349vw;
+     }
+
+     #sobre .contact svg {
+        width: 4.349vw;
+        height: 4.349vw;
+     }
+
+     #sobre .titulo {
+        font-size: 5.968vw;
+        margin-top: 5.371vw;
+     }
+
+     /* Seção Tec*/
+
+     #section-tec .title-tec p {
+        font-size: 2.807vw;
+     }
+
+     #section-tec .title-tec {
+        margin-top: 0;
+        margin-bottom: 2.355vw;
+     }
+
+     #tec-html {
+        font-size: 2.68vw;
+     }
+
+     #tec-css {
+        font-size: 2.68vw;
+     }
+
+     #tec-js {
+        font-size: 2.68vw;
+     }
+
+     #tec-php {
+        font-size: 2.68vw;
+     }
+
+     /*Seção art*/
+
+     #art .title-art h1 {
+        margin-top: 5.371vw;
+        font-size: 4.968vw;
+     }
+
+     #art .cards {
+        flex-direction: column;
+        padding: 6.582vw;
+     }
+
+     #art .card-1 {
+        width: 103%;
+        height: 29.067vw;
+        margin: 1.903vw;
+        border-radius: 1.903vw;
+        box-shadow: 0.181vw 0.181vw 1.813vw 0 rgba(39,39,42,1);
+     }
+
+     #art .card-2 {
+        width: 103%;
+        height: 29.067vw;
+        margin: 1.903vw;
+        border-radius: 1.903vw;
+        box-shadow: 0.181vw 0.181vw 1.813vw 0 rgba(39,39,42,1);
+     }
+
+     #art .autor-card {
+        margin-top: 2.9vw;
+        margin-left: 2.452vw;
+     }
+
+     #art .autor-card span {
+        font-size: 2.355vw;
+     }
+
+     #art .autor-card img {
+        width: 4.71vw;
+        height: 4.71vw;
+        margin-left: 1.452vw;
+     }
+
+     #art #content-card a {
+        margin-top: 0.355vw;
+        margin-left: 2.452vw;
+     }
+
+     #art #content-card h1 {
+        font-size: 4.349vw;
+     }
+
+     #art #content-card span {
+        font-size: 2.445vw;
+     }
     }
 
-    @media (min-width: 480px) and (max-width: 767px) {
+@media (min-width: 480px) and (max-width: 767px) {
         /* Estilos médios */
 
         .tec1 {
