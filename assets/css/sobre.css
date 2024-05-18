@@ -3,7 +3,8 @@
     width: 18.067vw;
     height: 18.067vw; 
     border-radius: 50%;
-    border: 5px #27272a solid;
+    border: 0.488vw #27272a solid;
+    margin: 0.488vw;
 }
 
 .container-sb {
@@ -28,6 +29,7 @@
     justify-content: space-evenly;
     font-size: 4.968vw;
     color: #27272a;
+    margin-bottom: 1.488vw;
 }
 
 figure {
@@ -92,7 +94,8 @@ figcaption h1 {
 .contact {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
+    margin: 0.488vw;
 }
 
 .contact a {

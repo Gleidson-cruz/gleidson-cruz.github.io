@@ -3,7 +3,7 @@
 
     /*  Seção home*/
     #home {
-        margin-bottom: 5.371vw;
+        height: 141vw;
     }
     .tec1 {
         font-size: 9.843vw;
@@ -77,20 +77,27 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
+        height: 51vw;
         margin-top: 0;
         margin-right: 0;
         margin-left: 0;
      }
 
      #sobre #img {
-        width: 23.067vw;
-        height: 23.067vw;
+        width: 32.067vw;
+        height: 32.067vw;
         border-radius: 50%;
         border: 0.488vw #27272a solid;
+        margin: 0.488vw;
+     }
+
+     #sobre figure figcaption {
+        width: 33vw;
      }
 
      #sobre figure figcaption h1 {
-        font-size: 3.168vw;
+        font-size: 4.168vw;
+        text-align: center;
      }
 
      #sobre .txt-sobre {
@@ -99,15 +106,22 @@
         margin-bottom: 3.452vw;
      }
 
+     #sobre .contact {
+        justify-content: space-evenly;
+        margin: 0.488vw;
+     }
+
      #sobre .contact a {
         margin: 0.44vw;
-        width: 6.349vw;
-        height: 6.349vw;
+        margin: 0.44vw;
+        width: 8.349vw;
+        height: 8.349vw;
+        border: 0.381vw #27272a solid;
      }
 
      #sobre .contact svg {
-        width: 4.349vw;
-        height: 4.349vw;
+        width: 5.349vw;
+        height: 5.349vw;
      }
 
      #sobre .titulo {
@@ -197,6 +211,89 @@
      #art #content-card span {
         font-size: 2.445vw;
      }
+
+     /*Seção proj*/
+
+     #proj .card-proj {
+        width: 30.584vw;
+        height: 48.134vw;
+        border-radius: 1.963vw;
+     }
+
+     #proj .desc-proj {
+        width: 27.68vw;
+        margin: auto;
+        margin-bottom: 1.355vw;
+     }
+
+     #proj .desc-proj h1 {
+        font-size: 3.349vw;
+     }
+
+     #proj .desc-proj span {
+        font-size: 2.445vw;
+        display: block;  
+     }
+
+     /*Seção footer*/
+     #content-footer .footer-links a {
+        font-size: 2.441vw;
+        padding: 0 1.552vw 0 1.552vw;
+     }
+
+     label {
+        font-size: 2.441vw;
+     }
+
+     #content-footer #bt-contact {
+        height: 6.613vw;
+     }
+
+     #content-footer #bt-contact a {
+        font-size: 2.441vw;
+     }
+
+     #content-footer #bt-contact svg {
+        width: 25%;
+        height: 55%;
+     }
+
+     #content-footer .copyright {
+        font-size: 2.441vw;;
+     }
+
+     /*BT menu flut*/
+     #menu-icon {
+        position: fixed;
+        bottom: 4.807vw;
+        right: 4.807vw;
+        width: 7.517vw;
+        height: 7.517vw;
+        border: 0.395vw #1e90ff solid;
+     }
+
+     #menu-icon .icon svg {
+        width: 5.258vw;
+        height: 5.258vw;
+     }
+
+     .menu-nav-icon.expanded {
+        position: absolute;
+        bottom: 13.227vw;
+        left: 74.818vw;
+        width: 15.033vw;
+        border: 0.098vw #28a7ff solid;
+     }
+
+     #menu-nav-icon a {
+        font-size: 2.441vw;
+        padding: 0.488vw;
+     }
+
+     /*Popup*/
+
+     
+
     }
 
 @media (min-width: 480px) and (max-width: 767px) {
@@ -252,8 +349,7 @@
         nav a {
             font-size: 2.608vw;
             margin: 0.326vw;
-        }
-    
+        }    
     }
     
 

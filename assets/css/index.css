@@ -24,6 +24,12 @@ html, body {
     overflow-x: hidden;
 }
 
+#home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .container {
     /*Centralizando o conteúdo*/
     display: flex;

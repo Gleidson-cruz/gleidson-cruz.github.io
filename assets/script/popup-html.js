@@ -140,13 +140,14 @@ function createPopup(element, tecnologias) {
     <p>${tecnologias.find(t => t.nome.toLowerCase() === element.title.toLowerCase()).descricao}.</p>
     <button id="fechar-popup">Fechar</button>
   `;
+  popup.id = 'popup-menu';
   popup.style.position = 'fixed';
   popup.style.top = '50%';
   popup.style.left = '50%';
   popup.style.transform = 'translate(-50%, -50%)';
   popup.style.background = 'white';
-  popup.style.padding = '20px';
-  popup.style.border = '2px solid #28a7ff';
+  popup.style.padding = '1.953vw';
+  popup.style.border = '0.195vw solid #28a7ff';
   popup.style.borderRadius = '0.452vw';
   popup.style.boxShadow = '0 0 0.903vw rgba(0,0,0,0.2)';
   popup.style.zIndex = '1000';
@@ -183,8 +184,8 @@ function createPopup(element, tecnologias) {
   fecharPopupButton.style.fontWeight = 'bolder';
   fecharPopupButton.style.marginBlockStart = '0.83em';
   fecharPopupButton.style.marginBlockEnd = '0.83em';
-  fecharPopupButton.style.marginInlineStart = '0.83px';
-  fecharPopupButton.style.marginInlineEnd = '0.83spx';
+  fecharPopupButton.style.marginInlineStart = '8.105vw';
+  fecharPopupButton.style.marginInlineEnd = '8.105vw';
   fecharPopupButton.style.textAlign = 'center';
 
   // Adiciona o hover no botão
