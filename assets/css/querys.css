@@ -247,6 +247,7 @@
 
      #content-footer #bt-contact {
         height: 6.613vw;
+        width: 20.613vw;
      }
 
      #content-footer #bt-contact a {
@@ -291,8 +292,24 @@
      }
 
      /*Popup*/
+     #popup-menu {
+        width: 80vw;
+        border: 0.45vw solid rgb(40, 167, 255);
+     }
 
+     #popup-menu ul {
+        font-size: 1.8em;
+     }
      
+     #popup-menu h2 {
+        font-size: 5.5vw;
+     }
+
+     button {
+        width: 11.775vw;
+        height: 4.258vw;
+        font-size: 2.5vw;
+     }
 
     }
 

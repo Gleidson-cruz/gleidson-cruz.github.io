@@ -3,131 +3,136 @@ const tecnologias = [
   {
     nome: 'HTML',
     descricao: `<ul>
-    <li>Criar websites semânticos:
       <ul>
+        <li>Criar websites semânticos.
         <li>Utilizar tags HTML adequadas para cada tipo de conteúdo (exemplo: &lt;header&gt;, &lt;nav&gt;, &lt;main&gt;, &lt;footer&gt;).</li>
         <li>Incorporar meta tags para melhorar o SEO e acessibilidade do site.</li>
       </ul>
-    </li>
-    <li>Páginas web acessíveis e bem estruturados:
+
       <ul>
+        <li>Páginas web acessíveis e bem estruturados.
         <li>Implementar atributos como alt em imagens para tornar o conteúdo acessível a usuários com deficiência visual.</li>
         <li>Utilizar marcação semântica para facilitar a compreensão da estrutura do site.</li>
       </ul>
-    </li>
   </ul>`
   },
   {
     nome: 'CSS',
     descricao: `<ul>
-    <li>Web Sites responsivos:
       <ul>
+        <li>Web Sites responsivos.
         <li>Utilizar media queries para ajustar o layout e estilo conforme o tamanho da tela.</li>
         <li>Implementar grids ou flexbox para criar layouts flexíveis e adaptáveis.</li>
       </ul>
-    </li>
-    <li>Páginas web intuitivas e visualmente atraentes:
+
+    
       <ul>
+        <li>Páginas web intuitivas e visualmente atraentes.
         <li>Aplicar princípios de design como contraste, hierarquia visual e espaçamento adequado.</li>
         <li>Utilizar animações e transições CSS para criar interações sutis e agradáveis.</li>
       </ul>
-    </li>
-    <li>Cores selecionadas:
+ 
+
       <ul>
+        <li>Cores selecionadas.   
         <li>Escolher paletas de cores harmoniosas e que transmitam a identidade visual desejada.</li>
         <li>Utilizar técnicas de design para criar contrastes eficazes e legibilidade.</li>
       </ul>
-    </li>
+ 
   </ul>`
   },
   {
     nome: 'JavaScript',
     descricao: `<ul>
-    <li>Implementar pop-ups:
+
       <ul>
+        <li>Implementar pop-ups.
         <li>Utilizar bibliotecas como jQuery UI ou criar pop-ups customizados com JavaScript puro.</li>
         <li>Gerenciar eventos de clique e interações do usuário para exibir pop-ups de forma responsiva.</li>
       </ul>
-    </li>
-    <li>Manipular CSS e HTML:
+
       <ul>
+        <li>Manipular CSS e HTML.  
         <li>Alterar estilos CSS dinamicamente com JavaScript para criar efeitos visuais interativos.</li>
         <li>Manipular elementos HTML para adicionar ou remover conteúdo de forma dinâmica.</li>
       </ul>
-    </li>
-    <li>Mais interações:
+
+
       <ul>
+        <li>Mais interações.
         <li>Criar efeitos de scroll suaves para melhorar a experiência de navegação.</li>
         <li>Validar formulários em tempo real para fornecer feedback imediato aos usuários.</li>
       </ul>
-    </li>
+
   </ul>`
   },
 {
     nome: 'PHP',
     descricao: `<ul>
-    <li>Manipulação de formulários:
+
       <ul>
+        <li>Manipulação de formulários.
         <li>Receber dados de formulários HTML utilizando o método POST ou GET.</li>
         <li>Validar e processar dados submetidos pelos usuários antes de inseri-los no banco de dados.</li>
       </ul>
-    </li>
-    <li>Conexão e CRUD com banco de dados:
+
+
       <ul>
+        <li>Conexão e CRUD com banco de dados.
         <li>Estabelecer conexão com bancos de dados MySQL ou MariaDB utilizando PHP PDO.</li>
         <li>Executar operações CRUD (Create, Read, Update, Delete) para interagir com os dados do banco de dados.</li>
       </ul>
-    </li>
+
   </ul>`
   },
   {
     nome: 'Figman',
     descricao: `<ul>
-    <li>Desenvolver projetos de interfaces:
+
       <ul>
+        <li>Desenvolver projetos de interfaces.
         <li>Criar wireframes e protótipos interativos para visualização e teste de fluxos de usuário.</li>
         <li>Utilizar componentes reutilizáveis e estilos globais para manter a consistência no design.</li>
       </ul>
-    </li>
-    <li>Desktop e mobile:
+
+
       <ul>
+        <li>Desktop e mobile.
         <li>Adaptar designs para diferentes resoluções e dispositivos, considerando as diretrizes de design responsivo.</li>
         <li>Exportar assets e especificações de design para desenvolvedores implementarem nos projetos.</li>
       </ul>
-    </li>
+
   </ul>`
   },
   {
     nome: 'UX/UI Designer',
     descricao: ` <ul>
-    <li>
-      <strong>Design Visual Atraente e Funcional:</strong>
+    
+      
       <ul>
+       <li> <strong>Design Visual Atraente e Funcional:</strong> </li>
         <li>Criar layouts que sejam atraentes visualmente e ao mesmo tempo funcionais, garantindo uma boa experiência de usuário.</li>
         <li>Utilizar técnicas de design como espaçamento adequado, hierarquia visual e uso inteligente de elementos gráficos para direcionar o olhar do usuário e facilitar a compreensão da interface.</li>
       </ul>
-    </li>
-    <li>
-      <strong>Escolha de Paletas de Cores:</strong>
+    
       <ul>
+      <li> <strong>Escolha de Paletas de Cores:</strong> 
         <li>Selecionar paletas de cores que sejam harmoniosas e que transmitam a mensagem desejada, considerando a psicologia das cores e o contexto do projeto.</li>
         <li>Garantir que as cores escolhidas também sejam acessíveis para usuários com diferentes necessidades visuais.</li>
       </ul>
-    </li>
-    <li>
-      <strong>Tipografia Eficiente:</strong>
+
       <ul>
+        <li> <strong>Tipografia Eficiente:</strong> </li>
         <li>Escolher tipografias adequadas que sejam legíveis em diferentes tamanhos e dispositivos, mantendo a consistência e o estilo do design.</li>
         <li>Utilizar hierarquia tipográfica para destacar informações importantes e facilitar a leitura.</li>
       </ul>
-    </li>
-    <li>
-      <strong>Elementos Gráficos Coesos:</strong>
+
       <ul>
+        <li> <strong>Elementos Gráficos Coesos:</strong> </li>
         <li>Integrar elementos gráficos, como ícones e ilustrações, de forma coesa e alinhada com a identidade visual do projeto.</li>
         <li>Certificar-se de que esses elementos contribuam para a compreensão e usabilidade da interface, evitando poluição visual desnecessária.</li>
       </ul>
-    </li>
+    
   </ul>`
   },
 ];
@@ -165,7 +170,6 @@ function createPopup(element, tecnologias) {
   // Estiliza o h2
   const h2 = popup.querySelector('h2');
   h2.style.display = 'block';
-  h2.style.fontSize = '1.5em';
   h2.style.marginBlockStart = '0.83em';
   h2.style.marginBlockEnd = '0.83em';
   h2.style.marginInlineStart = '0px';
@@ -184,7 +188,7 @@ function createPopup(element, tecnologias) {
   fecharPopupButton.style.fontWeight = 'bolder';
   fecharPopupButton.style.marginBlockStart = '0.83em';
   fecharPopupButton.style.marginBlockEnd = '0.83em';
-  fecharPopupButton.style.marginInlineStart = '8.105vw';
+  fecharPopupButton.style.marginInlineStart = '0.488vw';
   fecharPopupButton.style.marginInlineEnd = '8.105vw';
   fecharPopupButton.style.textAlign = 'center';
 
