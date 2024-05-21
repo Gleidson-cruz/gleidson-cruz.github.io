@@ -182,8 +182,6 @@ function createPopup(element, tecnologias) {
   fecharPopupButton.style.borderRadius = '0.452vw';
   fecharPopupButton.style.border = 'none';
   fecharPopupButton.style.backgroundColor = '#3490dc';
-  fecharPopupButton.style.width = '6.775vw';
-  fecharPopupButton.style.height = '2.258vw';
   fecharPopupButton.style.color = '#fff';
   fecharPopupButton.style.fontWeight = 'bolder';
   fecharPopupButton.style.marginBlockStart = '0.83em';

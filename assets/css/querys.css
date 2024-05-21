@@ -1,4 +1,14 @@
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 1025px) {
+    
+ #fechar-popup {
+    font-size: 1em;
+    width: 6.775vw;
+    height: 2.258vw;
+ }
+}
+
+
+@media (min-width: 480px) and (max-width: 1024px) {
     /* Estilos para tablets */
 
     /*  Seção home*/
@@ -298,80 +308,26 @@
      }
 
      #popup-menu ul {
-        font-size: 1.8em;
+        font-size: 1.5em;
+        padding: 1.465vw;
      }
      
      #popup-menu h2 {
         font-size: 5.5vw;
      }
 
-     button {
+     #popup-menu button {
         width: 11.775vw;
-        height: 4.258vw;
-        font-size: 2.5vw;
+        height: 8.258vw;
+        font-size: 2.5em;
      }
 
     }
 
-@media (min-width: 480px) and (max-width: 767px) {
-        /* Estilos médios */
-
-        .tec1 {
-            font-size: 9.126vw;
-            width: 36.506vw;
-            top: 5.215vw;
-            left: 0.522vw;
-        }
-    
-        .tec2 {
-            font-size: 19.557vw;
-            bottom: 5.215vw;
-        }
-    
-        .icons {
-            left: 39.113vw;
-            bottom: 1.825vw;
-        }
-    
-        .icons svg {
-            width: 3.39vw;
-            height: 3.39vw;
-        }
-    
-        .sobre {
-            width: 35.202vw;
-            left: 45.632vw;
-            bottom: 5.867vw;
-            font-size: 2.608vw;
-        }
-    
-        .name {
-            top: 6.519px;
-            left: 1.043;
-            font-size: 2.608vw;
-        }
-    
-        .icons a {
-            margin: 0.652vw;
-            width: 4.563vw;
-            height: 4.563vw;
-        }
-    
-        nav {
-            bottom: 21.773vw;
-            left: 0.522vw;
-            width: 37.81vw;
-        }
-    
-        nav a {
-            font-size: 2.608vw;
-            margin: 0.326vw;
-        }    
-    }
-    
-
   @media (max-width: 479px) {
     /* Estilos para celulares */
+
+    /*seção home*/
 
     .tec1 {
         font-size: 7.438vw;
@@ -427,4 +383,260 @@
         margin: 1.044vw;
     }
     
+    
+     /*seção sobre*/
+
+     #sobre {
+        display: flex;
+        flex-grow: 1;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+     }
+
+     #sobre figure {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 77vw;
+        margin-top: 0;
+        margin-right: 0;
+        margin-left: 0;
+     }
+
+     #sobre #img {
+        width: 50.067vw;
+        height: 50.067vw;
+        border-radius: 50%;
+        border: 0.888vw #27272a solid;
+        margin: 0.488vw;
+     }
+
+     #sobre figure figcaption {
+        width: 52vw;
+     }
+
+     #sobre figure figcaption h1 {
+        font-size: 7.168vw;
+        text-align: center;
+     }
+
+     #sobre .txt-sobre {
+        width: 96.234vw;
+        font-size: 4.807vw;
+        margin-bottom: 7.452vw;
+     }
+
+     #sobre .contact {
+        justify-content: space-evenly;
+        margin: 0.488vw;
+     }
+
+     #sobre .contact a {
+        margin: 0.144vw;
+        width: 12.349vw;
+        height: 12.349vw;
+        border: 0.381vw #27272a solid;
+     }
+
+     #sobre .contact svg {
+        width: 7.349vw;
+        height: 7.349vw;
+     }
+
+     #sobre .txt-sobre .titulo {
+        font-size: 6.968vw;
+        margin-top: 2.371vw;
+     }
+
+     /* Seção Tec*/
+
+     #section-tec .title-tec p {
+        font-size: 4.807vw;
+     }
+
+     #section-tec .title-tec {
+        margin-top: 0;
+        margin-bottom: 5.355vw;
+     }
+
+     #tec-html {
+        font-size: 2.68vw;
+     }
+
+     #tec-css {
+        font-size: 2.68vw;
+     }
+
+     #tec-js {
+        font-size: 2.68vw;
+     }
+
+     #tec-php {
+        font-size: 2.68vw;
+     }
+
+     /*Seção art*/
+
+     #art .title-art h1 {
+        margin-top: 5.371vw;
+        font-size: 6.968vw;
+     }
+
+     #art .cards {
+        flex-direction: column;
+        padding: 6.582vw;
+     }
+
+     #art .card-1 {
+        width: 103%;
+        height: 29.067vw;
+        margin: 1.903vw;
+        border-radius: 1.903vw;
+        box-shadow: 0.181vw 0.181vw 1.813vw 0 rgba(39,39,42,1);
+     }
+
+     #art .card-2 {
+        width: 103%;
+        height: 29.067vw;
+        margin: 1.903vw;
+        border-radius: 1.903vw;
+        box-shadow: 0.181vw 0.181vw 1.813vw 0 rgba(39,39,42,1);
+     }
+
+     #art .autor-card {
+        margin-top: 2.9vw;
+        margin-left: 2.452vw;
+     }
+
+     #art .autor-card span {
+        font-size: 2.355vw;
+     }
+
+     #art .autor-card img {
+        width: 4.71vw;
+        height: 4.71vw;
+        margin-left: 1.452vw;
+     }
+
+     #art #content-card a {
+        margin-top: 0.355vw;
+        margin-left: 2.452vw;
+     }
+
+     #art #content-card h1 {
+        font-size: 4.349vw;
+     }
+
+     #art #content-card span {
+        font-size: 2.445vw;
+     }
+
+     /*Seção proj*/
+
+     #proj .title-proj h1 {
+        font-size: 6.968vw;
+     }
+
+     #proj .card-proj {
+        width: 30.584vw;
+        height: 48.134vw;
+        border-radius: 1.963vw;
+     }
+
+     #proj .desc-proj {
+        width: 27.68vw;
+        margin: auto;
+        margin-bottom: 1.355vw;
+     }
+
+     #proj .desc-proj h1 {
+        font-size: 3.349vw;
+     }
+
+     #proj .desc-proj span {
+        font-size: 2.445vw;
+        display: block;  
+     }
+
+     /*Seção footer*/
+     #content-footer .footer-links a {
+        font-size: 2.441vw;
+        padding: 0 1.552vw 0 1.552vw;
+     }
+
+     label {
+        font-size: 2.441vw;
+     }
+
+     #content-footer #bt-contact {
+        height: 6.613vw;
+        width: 20.613vw;
+     }
+
+     #content-footer #bt-contact a {
+        font-size: 2.441vw;
+     }
+
+     #content-footer #bt-contact svg {
+        width: 25%;
+        height: 55%;
+     }
+
+     #content-footer .copyright {
+        font-size: 2.441vw;;
+     }
+
+     /*BT menu flut*/
+     #menu-icon {
+        position: fixed;
+        bottom: 4.807vw;
+        right: 4.807vw;
+        width: 10.517vw;
+        height: 10.517vw;
+        border: 0.395vw #1e90ff solid;
+     }
+
+     #menu-icon .icon svg {
+        width: 12.258vw;
+        height: 6.258vw;
+        position: relative;
+        top: 0.485vw;
+     }
+
+     .menu-nav-icon.expanded {
+        position: absolute;
+        bottom: 15.227vw;
+        left: 47.818vw;
+        width: 38.033vw;
+        border: 0.098vw #28a7ff solid;
+     }
+
+     #menu-nav-icon a {
+        font-size: 6.441vw;
+        padding: 1.488vw;
+     }
+
+     /*Popup*/
+     #popup-menu {
+        width: 80vw;
+        border: 0.45vw solid rgb(40, 167, 255);
+     }
+
+     #popup-menu ul {
+        font-size: 1.5em;
+        padding: 1.465vw;
+     }
+     
+     #popup-menu h2 {
+        font-size: 5.5vw;
+     }
+
+     #popup-menu button {
+        width: 11.775vw;
+        height: 8.258vw;
+        font-size: 2.5em;
+     }
+
   }
