@@ -606,7 +606,7 @@
      }
 
      .menu-nav-icon.expanded {
-        position: absolute;
+        position: fixed;
         bottom: 15.227vw;
         left: 47.818vw;
         width: 38.033vw;
