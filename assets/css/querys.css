@@ -625,8 +625,8 @@
      }
 
      #popup-menu ul {
-        font-size: 1.5em;
-        padding: 1.465vw;
+        font-size: 1em;
+        padding: 3.465vw;
      }
      
      #popup-menu h2 {
@@ -634,9 +634,9 @@
      }
 
      #popup-menu button {
-        width: 11.775vw;
+        width: 12.775vw;
         height: 8.258vw;
-        font-size: 2.5em;
+        font-size: 1em;
      }
 
   }
