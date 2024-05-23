@@ -7,6 +7,10 @@
     margin: 0.488vw;
 }
 
+#img:hover {
+    background-image: url("../img/logo/GFlogo.png");
+}
+
 .container-sb {
     display: flex;
     align-items: center;;
