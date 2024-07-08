@@ -539,27 +539,6 @@
         font-size: 6.968vw;
      }
 
-     #proj .card-proj {
-        width: 30.584vw;
-        height: 48.134vw;
-        border-radius: 1.963vw;
-     }
-
-     #proj .desc-proj {
-        width: 27.68vw;
-        margin: auto;
-        margin-bottom: 1.355vw;
-     }
-
-     #proj .desc-proj h1 {
-        font-size: 3.349vw;
-     }
-
-     #proj .desc-proj span {
-        font-size: 2.445vw;
-        display: block;  
-     }
-
      /*Seção footer*/
      #content-footer .footer-links a {
         font-size: 2.441vw;
